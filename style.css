@@ -1,0 +1,32 @@
+body {
+    background-color: #003e92;
+    color: white;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.article {
+    display: flex;
+
+}
+
+.boxes {
+    display: flex;
+}
+
+.box {
+    background-color: cornflowerblue;
+    margin: 10px;
+    padding: 3px;
+}
+
+#cover-ep {
+    float: right;
+    background-color: #34609f;
+}
