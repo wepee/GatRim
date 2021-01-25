@@ -82,17 +82,16 @@ p {
     background-size: cover;
 }
 
-.article > a > div > img{
+.article > a > div > img {
     display: none;
+    transition: .5s ease;
+    border-radius: 50%;
 }
 
-.article > a > div:hover > img{
+.article > a > div:hover > img {
     display: block;
     align-self: center;
     margin: 0 auto;
-}
-.article > a > div:hover{
-    backdrop-filter: blur(50%);
 }
 
 .shadow-top {
