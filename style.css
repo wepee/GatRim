@@ -58,9 +58,41 @@ p {
     width: 250px;
 }
 
-.article > a > img {
+.article > a > div#francetv {
     height: 300px;
     width: 300px;
+    display: flex;
+    background: url("images/article1.png");
+    background-size: cover;
+}
+
+.article > a > div#leprogres {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    background: url("images/article2.png");
+    background-size: cover;
+}
+
+.article > a > div#parisienne {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    background: url("images/article3.png");
+    background-size: cover;
+}
+
+.article > a > div > img{
+    display: none;
+}
+
+.article > a > div:hover > img{
+    display: block;
+    align-self: center;
+    margin: 0 auto;
+}
+.article > a > div:hover{
+    backdrop-filter: blur(50%);
 }
 
 .shadow-top {
